@@ -1,0 +1,17 @@
+.Messenger-right-col{
+	width: 70%;
+	min-height: 88vh;
+	
+}
+
+.UserSction{
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 0 20px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #dfdfdf;
+}
+

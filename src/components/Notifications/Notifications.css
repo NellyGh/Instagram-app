@@ -1,0 +1,25 @@
+.Notification{
+	width: 100%;
+	position: absolute;
+	top: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+.Notification-body{
+	width: 70%;
+	height: 85vh;
+	background-color: #fff;
+	border: 1px solid #dfdfdf;
+	padding: 30px;
+	overflow-y: scroll;
+}
+
+.Notic-this{
+	margin: 20px 0;
+	border-bottom:1px solid #dfdfdf;
+}
+
+.Notic-this-week h2{
+	font-size: 20px;
+}

@@ -1,0 +1,50 @@
+.Messenger{
+	position: absolute;
+	width: 100%;
+	min-height: 88vh;
+	top: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+.Messenger-auto{
+	width: 70%;
+	min-height: 95%;
+	border: 1px solid #dfdfdf;
+	background-color: #fff;
+	display: flex;
+}
+
+.Messenger-left-col{
+	width: 33%;
+	border-right: 1px solid #dfdfdf;
+}
+
+.Messenger-left-col-direct{
+	height: 50px;
+	font-size: 18px;
+	line-height: 50px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.Primary-General{
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+
+	display: flex;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.Primary-General p{
+	padding: 0 15px;
+	cursor: pointer;
+}
+
+.Primary-General p:focus{
+	border-bottom: 1px solid black;
+}
+
+

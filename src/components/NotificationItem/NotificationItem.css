@@ -1,0 +1,20 @@
+.NotificationItem{
+	width: 70%;
+	margin: 15px 10px;
+	display: flex;
+	font-size: 15px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.NotificationItembtn{
+	color: #fff;
+	background-color: rgb(7, 133, 175);
+	padding: 10px 20px;
+	border-radius: 15px;
+}
+
+.NotificationItem-body{
+	display: flex;
+	align-items: center;
+}
