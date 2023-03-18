@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import { memo } from 'react'
 import { useRef } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
@@ -8,14 +8,18 @@ import { addComment } from '../../store/slices/posts/PostsSlice'
 import { selectUsers } from '../../store/slices/users/usersSlice'
 import Comments from '../Comments/Comments'
 import Form from '../Form/Form'
-import ToggleComments from '../hoc/ToggleComments'
+// import ToggleComments from '../hoc/ToggleComments'
 
 
 
-function Post({id, img, name, likesCount,comments, postText, timeAgo,showComments,toggleComments}) {
+function Post({id, img, name, likesCount,comments, postText, timeAgo}) {
   // useEffect(()=>{
   //   console.log('Post');
   // },[])
+  const [showComments, setShowComments] = useState(false)
+  const toggleComments = useCallback(()=>{
+          setShowComments(prev => !prev)
+  },[])
   const {currentUser} = useSelector(selectUsers)
   return (
     <div className="post">
@@ -51,4 +55,4 @@ function Post({id, img, name, likesCount,comments, postText, timeAgo,showComment
   )
 }
 
-export default memo(ToggleComments(Post))
+export default memo(Post)
