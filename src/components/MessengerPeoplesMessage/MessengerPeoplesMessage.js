@@ -7,13 +7,13 @@ import './MessengerPeoplesMessage.css'
 function MessengerPeoplesMessage({name,active,img,id}) {
 	const dispatch = useDispatch()
 	const {toMessage} = useSelector(selectConversations)
-	// useEffect(()=>{
-	// 	console.log('pple');
-	// },[])
+	useEffect(()=>{
+		console.log('pple');
+	},[])
 	const [activeUser, setActiveUser] = useState(null)
 
 	const ToggleBackground = (user) => {
-		setActiveUser( user)
+		setActiveUser(user)
 		}
 	
   return (
