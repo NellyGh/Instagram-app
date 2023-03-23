@@ -1,6 +1,6 @@
 {
   "homepage":"https://github.com/NellyGh/instagram-clone/",
-  "name": "instagram-clone",
+  "name": "instagram",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
