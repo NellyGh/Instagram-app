@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NellyGh/Instagram-app/static/css/main.4fb8f8de.css",
-    "main.js": "/NellyGh/Instagram-app/static/js/main.2279962b.js",
+    "main.js": "/NellyGh/Instagram-app/static/js/main.caed06e8.js",
     "static/media/cover 11.png": "/NellyGh/Instagram-app/static/media/cover 11.7486d94be7a0b2ee79c4.png",
     "static/media/cover 4.png": "/NellyGh/Instagram-app/static/media/cover 4.9c4dcabaaf172d289f53.png",
     "static/media/cover 12.png": "/NellyGh/Instagram-app/static/media/cover 12.6059ec23d842e5ede43e.png",
@@ -29,10 +29,10 @@
     "static/media/save.PNG": "/NellyGh/Instagram-app/static/media/save.4e67db1f71c957222ebb.PNG",
     "static/media/option.PNG": "/NellyGh/Instagram-app/static/media/option.758d592e9bd49ac1bebc.PNG",
     "main.4fb8f8de.css.map": "/NellyGh/Instagram-app/static/css/main.4fb8f8de.css.map",
-    "main.2279962b.js.map": "/NellyGh/Instagram-app/static/js/main.2279962b.js.map"
+    "main.caed06e8.js.map": "/NellyGh/Instagram-app/static/js/main.caed06e8.js.map"
   },
   "entrypoints": [
     "static/css/main.4fb8f8de.css",
-    "static/js/main.2279962b.js"
+    "static/js/main.caed06e8.js"
   ]
 }
